@@ -1,6 +1,6 @@
-package ArrayBox;
+package arrray_box;
 
-public class ArrayBox<E> {
+public class array_box<E> {
 
     private static final int DEFAULT_LEN = 0;
 
@@ -8,11 +8,11 @@ public class ArrayBox<E> {
 
     public int effectiveItemLen = 0;
 
-    public ArrayBox() {
+    public array_box() {
         arr = new Object[DEFAULT_LEN];
     }
 
-    public ArrayBox(int effectiveLen) {
+    public array_box(int effectiveLen) {
         arr = new Object[effectiveLen];
     }
 

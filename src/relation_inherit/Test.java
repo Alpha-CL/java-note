@@ -1,4 +1,4 @@
-package inherit;
+package relation_inherit;
 
 public class Test {
 

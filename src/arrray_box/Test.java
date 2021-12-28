@@ -1,10 +1,10 @@
-package ArrayBox;
+package arrray_box;
 
 public class Test {
 
     public static void main(String[] args) {
 
-        ArrayBox<Integer> box = new ArrayBox<Integer>();
+        array_box<Integer> box = new array_box<Integer>();
 
         for(int i = 66; i < 72; i++) {
             box.push(i);

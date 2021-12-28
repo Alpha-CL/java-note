@@ -1,4 +1,4 @@
-package ArrayBox;
+package arrray_box;
 
 public class BoxIndexOutOfBoundsException extends RuntimeException {
 
