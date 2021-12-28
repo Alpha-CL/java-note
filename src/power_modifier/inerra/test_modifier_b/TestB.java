@@ -1,4 +1,4 @@
-package test_modifier_b;
+package power_modifier.inerra.test_modifier_b;
 
 import test_modifier_a.TestA;
 

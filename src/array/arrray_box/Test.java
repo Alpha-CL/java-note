@@ -1,4 +1,4 @@
-package arrray_box;
+package array.arrray_box;
 
 public class Test {
 

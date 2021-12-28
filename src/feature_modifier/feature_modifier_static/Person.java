@@ -1,6 +1,4 @@
-package feature_modifier_static;
-
-import java.security.PublicKey;
+package feature_modifier.feature_modifier_static;
 
 public class Person {
 

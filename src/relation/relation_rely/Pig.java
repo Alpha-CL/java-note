@@ -1,4 +1,4 @@
-package relation_rely;
+package relation.relation_rely;
 
 public class Pig {
 

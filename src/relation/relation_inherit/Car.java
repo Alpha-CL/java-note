@@ -1,4 +1,4 @@
-package relation_inherit;
+package relation.relation_inherit;
 
 public class Car {
 
