@@ -150,7 +150,6 @@ public class ArrayBox<E> {
         return effectiveItemLen;
     }
 
-    @Override
     public Boolean push() {
         return null;
     }
