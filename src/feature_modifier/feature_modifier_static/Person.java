@@ -5,10 +5,10 @@ public class Person {
     public String name;
     public static int age;
 
-//    Person() {
+//    Father() {
 //    }
 //
-//    Person(String name, int age) {
+//    Father(String name, int age) {
 //        this.name = name;
 //        this.age = age;
 //    }
