@@ -54,7 +54,7 @@ public class ClassWrap {
     /**
      * 静态内部类
      *
-     * 静态成员不能访问 非静态成员( 自身&外部类 )     // 静态成员属于类本身
+     * 静态成员不能访问 非静态成员( 自身 & 外部类 )     // 静态成员属于类本身
      */
 
     public static class innerStaticClass {
