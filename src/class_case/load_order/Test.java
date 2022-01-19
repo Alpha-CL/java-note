@@ -1,4 +1,4 @@
-package class_case.class_load_order;
+package class_case.load_order;
 
 public class Test {
 

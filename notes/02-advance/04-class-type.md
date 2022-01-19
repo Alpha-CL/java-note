@@ -1,4 +1,4 @@
-# class-type
+## class-type
 
 #### type
 

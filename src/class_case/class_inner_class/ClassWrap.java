@@ -1,4 +1,4 @@
-package class_case.inner_class;
+package class_case.class_inner_class;
 
 public class ClassWrap {
 

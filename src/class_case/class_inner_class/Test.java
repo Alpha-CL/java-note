@@ -1,5 +1,4 @@
-package class_case.inner_class;
-import class_case.inner_class.ClassWrap.innerDemoClass;
+package class_case.class_inner_class;
 
 public class Test {
 
