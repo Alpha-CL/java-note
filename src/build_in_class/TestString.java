@@ -114,6 +114,7 @@ public class TestString {
         /**
          * 判断是否以指定字符串 开头/结尾
          *
+         *
          * str.startWith(prefix: string): boolean;
          * str.endsWith(suffix: string): boolean;;
          */
@@ -122,7 +123,7 @@ public class TestString {
          * string -> array          // 将字符串转换为指定类型的数组
          *
          *
-         * getBtyes(): btye[];
+         * getBytes(): byte[];
          * toCharArray(): char[];
          */
 

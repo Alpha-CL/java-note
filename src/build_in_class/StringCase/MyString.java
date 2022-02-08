@@ -61,9 +61,28 @@ public class MyString {
     /**
      * 小驼峰命名
      **/
-    public String toCamelCase(String str) {
+    public String camelCase(String str) {
 
-        return "";
+        StringBuilder res = new StringBuilder();
+
+        String[] strArr = str.split(" ");
+
+        for (int i = 0; i < strArr.length; i++) {
+
+            String word = strArr[i];
+
+            if (i == 0) {
+                res.append(word);
+                continue;
+            }
+
+            String firstLetter = word.substring(0, 1).toUpperCase();
+            String otherLetter = word.substring(1);
+
+            res.append(firstLetter.concat(otherLetter));
+        }
+
+        return res.toString();
     }
 
     /**
@@ -71,6 +90,25 @@ public class MyString {
      **/
     public String CamelCase(String str) {
 
-        return "";
+        StringBuilder res = new StringBuilder();
+
+        String[] strArr = str.split(" ");
+
+        for (int i = 0; i < strArr.length; i++) {
+
+            String word = strArr[i];
+
+//            if (i == 0) {
+//                res.append(word);
+//                continue;
+//            }
+
+            String firstLetter = word.substring(0, 1).toUpperCase();
+            String otherLetter = word.substring(1);
+
+            res.append(firstLetter.concat(otherLetter));
+        }
+
+        return res.toString();
     }
 }

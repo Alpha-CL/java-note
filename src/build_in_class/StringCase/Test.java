@@ -21,6 +21,10 @@ public class Test {
         System.out.println(myString.offsetDistance(str2, "right", 1));
 
         System.out.println(myString.letterExistCount(str1, 'l'));
+
+        System.out.println(myString.camelCase("camel case"));
+
+        System.out.println(myString.CamelCase("camel case"));
     }
 }
 
