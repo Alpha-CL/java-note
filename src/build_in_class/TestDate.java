@@ -1,4 +1,4 @@
-package build_in_class.test_math;
+package build_in_class;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

@@ -19,9 +19,9 @@
 
 // 常用属性
 
-    - name(): stringName;               // 枚举对象的名字
+    - name(): stringName;                       // 枚举对象的名字
     
-    - ordinal(): indexNumber;           // 当前枚举项的创建索引
+    - ordinal(): indexNumber;                   // 当前枚举项的创建索引
 
 
 // 常用方法

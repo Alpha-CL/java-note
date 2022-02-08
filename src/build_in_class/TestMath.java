@@ -1,4 +1,4 @@
-package build_in_class.test_math;
+package build_in_class;
 
 public class TestMath {
 
