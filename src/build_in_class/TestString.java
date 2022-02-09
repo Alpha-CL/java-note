@@ -190,5 +190,13 @@ public class TestString {
          * str.leftTrim();
          * str.rightTrim();
          */
+
+        /**
+         * 拼接
+         *
+         *
+         * StringBuilder();
+         * StringBuffer();
+         */
     }
 }
