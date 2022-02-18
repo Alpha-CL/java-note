@@ -1,6 +1,6 @@
 package error;
 
-public class TestNullPointerException {
+public class TestTryCatch {
 
     public static void main(String[] args) {
 
