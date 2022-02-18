@@ -31,7 +31,7 @@ public class Test {
             Teacher teacher = new Teacher();
 
             int score = teacher.checkPaper(paper, answers);
-            System.out.println(student.getUsername() + "最终的成绩为:" + score);
+            System.out.println(student.getUsername() + "最终的成绩为: " + score);
 
         } else {
             System.out.println("请输入正确的账号或密码");
