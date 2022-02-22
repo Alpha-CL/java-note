@@ -1,11 +1,13 @@
-package file_flow;
+package file_flow.manager_file;
 
-public class TestMethods {
+public class TestRecursion {
 
     /**
      * 递归
      *
      *
+     * 压栈: 未找到出口之前不断的向栈中添加放方法( 直到栈内存溢出 )
+     * 出栈: 找到出口后, 倒序执行压入栈的方法( first in, last out )
      */
 
     public void testOne() {
@@ -27,7 +29,7 @@ public class TestMethods {
 
     public static void main(String[] args) {
 
-        TestMethods tm = new TestMethods();
+        TestRecursion tm = new TestRecursion();
         tm.testOne();
     }
 }
