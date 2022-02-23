@@ -21,7 +21,6 @@ public class Father {
         System.out.println("[ Father static block code ], staticProp: " + Father.staticProp);
     }
 
-
     // 默认构造方法
     public Father() {
         System.out.println("[ Father Construct method ]");

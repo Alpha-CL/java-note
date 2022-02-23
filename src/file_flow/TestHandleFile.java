@@ -1,21 +1,22 @@
 package file_flow;
 
 import java.io.File;
-import java.io.IOException;
+import java.io.FileNotFoundException;
 
 public class TestHandleFile {
 
     public static void main(String[] args) {
 
-        String basePath = "/Users/lalpha/SynologyDrive/Drive/dlp/dlp-lrn/github/java-note/src/file_flow/test_file";
+        String projectPath = System.getProperty("user.dir");
+        String basePath = projectPath + "/src/file_flow/test_file";
+        String copyPath = projectPath + "/src/file_flow/test_copy";
 
         String[] CONTENTS = new String[]{"hello world", "just do it", "alpha"};
 
         File filesDirectory = new File(basePath);
         HandleFile ntf = new HandleFile();
 
-        boolean isDelete = ntf.deleteFile(filesDirectory);
-        // System.out.println("isDelete directory: " + isDelete);
+        ntf.deleteFile(filesDirectory);
 
         for (int i = 0; i < 3; i++) {
 
@@ -32,10 +33,12 @@ public class TestHandleFile {
 
             // 获取文件内容
             System.out.println("test" + (i + 1) + ".md: " + ntf.getContent(finallyPath));
-
         }
 
+        System.out.println("get absolute path of child file in file_test.");
         ntf.getChildFileName(filesDirectory);
-    }
 
+        ntf.copyFile(basePath + "/test1.md", copyPath);
+        ntf.copyFolder(basePath, basePath);
+    }
 }

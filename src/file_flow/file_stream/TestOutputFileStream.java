@@ -9,7 +9,8 @@ public class TestOutputFileStream {
 
     public static void main(String[] args) {
 
-        String basePath = "/Users/lalpha/SynologyDrive/Drive/dlp/dlp-lrn/github/java-note/src/file_flow/file_stream/test_file";
+        String projectPath = System.getProperty("user.dir");
+        String basePath = projectPath + "/src/file_flow/file_stream/test_file";
 
         File file1 = new File(basePath + "/testOutputStream1.md");
         File file2 = new File(basePath + "/testOutputStream2.md");

@@ -17,7 +17,10 @@ public class TestInputFileStream {
          *
          */
 
-        String basePath = "/Users/lalpha/SynologyDrive/Drive/dlp/dlp-lrn/github/java-note/src/file_flow/file_stream/test_file";
+
+        String projectPath = System.getProperty("user.dir");
+        String basePath = projectPath + "/src/file_flow/file_stream/test_file";
+
 
         FileInputStream fileInputStream1 = null;
         FileInputStream fileInputStream2 = null;
