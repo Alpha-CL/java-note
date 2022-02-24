@@ -1,4 +1,4 @@
-package file_flow.byte_flow;
+package file_flow.file_stream.byte_flow;
 
 import java.io.FileInputStream;
 import java.io.IOException;

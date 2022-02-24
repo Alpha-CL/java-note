@@ -1,7 +1,6 @@
 package file_flow.manager_file;
 
 import java.io.File;
-import java.io.IOException;
 
 public class TestCreateDirectory {
 

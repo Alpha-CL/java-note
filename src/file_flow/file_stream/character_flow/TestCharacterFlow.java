@@ -1,6 +1,5 @@
-package file_flow.character_flow;
+package file_flow.file_stream.character_flow;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;

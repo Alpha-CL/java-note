@@ -47,15 +47,15 @@ public class HandleFile {
         }
     }
 
-    // 删除文件夹
-    public boolean deleteFile(File file) {
+    // 递归删除文件夹
+    public void deleteFile(File file) {
         File[] files = file.listFiles();
         if (files != null && files.length != 0) {
             for (File f : files) {
                 this.deleteFile(f);
             }
         }
-        return file.delete();
+        boolean isDelete = file.delete();
     }
 
     // 写入文件内容

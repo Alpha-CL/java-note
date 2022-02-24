@@ -1,0 +1,3 @@
+{ account: alpha, password: 123 },
+{ account: beta, password: 456 },
+{ account: omega, password: 789 }
