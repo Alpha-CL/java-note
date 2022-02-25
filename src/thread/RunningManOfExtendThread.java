@@ -15,7 +15,7 @@ public class RunningManOfExtendThread extends Thread {
     }
 
     /**
-     * overwrite: 必须重写 run(); 方法, 再通过当前类的实例的 start(); 方法
+     * overwrite: 必须重写 run(); 方法, 再通过当前类的实例的 start(); 方法开启该线程
      **/
     public void run() {
 

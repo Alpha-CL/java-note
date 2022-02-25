@@ -17,7 +17,7 @@ public abstract class RunningManOfImplementsRunnable implements Runnable {
     /**
      * overwrite: 必须重写 run(); 方法
      * 通过 Thread 实例, 并传入 实现了 Runnable 接口的类
-     * 再通过 Thread 实例调用  start(); 方法
+     * 再通过 Thread 实例调用  start(); 方法开启该线程
      **/
     public void run() {
 

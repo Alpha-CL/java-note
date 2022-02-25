@@ -31,6 +31,8 @@
     
     - 守护线程
     
+    - 子线程
+    
     - ...
 
 
@@ -59,66 +61,49 @@
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
 
 
-// method_01: 单继承
+// method_01: extends Thread
 
 
-    1) Class Demo {}                                // 创建一个类
+    1) class Demo {}                                    // 创建一个类
     
-    2) Class Demo extend Thread {}                  // 必须继承 Thread 父类
+    2) class Demo extends Thread {}                     // 必须继承 Thread 父类
     
-    3) Class Demo extend Thread {
+    3) class Demo extend Thread {
         @overwrite 
-        public void run() {}                        // 必须重写 run(); 方法
+        public void run() {}                            // 必须重写 run(); 方法
     }
     
-    4) Class TestDemo {                             // 利用类的实例 的 start(); 方法开启线程
+    4) class TestDemo {                                 // 利用类的实例 的 start(); 方法开启线程
         public static void (String[] args) {
             Demo dm = new Demo();
-            dm.start();                             // start(); 方法源自 继承的 Thread 父类
-        ]                                           // 调用后 CPU 会分配内存, 并调用重写的 run(); 方法
+            dm.start();                                 // start(); 方法源自 继承的 Thread 父类
+        ]                                               // 调用后 CPU 会分配内存, 并调用重写的 run(); 方法开启该线程
     }
 
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
 
 
-// method_02: 实现接口
+// method_02: implements Runnable
 
 
-    1) Class Demo {}                                // 创建一个类
+    1) class Demo {}                                    // 创建一个类
     
-    2) Class Demo implements Runnable {}            // 必须实现 Runnable 接口
+    2) class abstract Demo implements Runnable {}       // 必须实现 Runnable 接口
 
-    3) Class TestDemo {                             // 利用类的实例 的 start(); 方法开启线程
+    3) class TestDemo {                                 // 利用类的实例 的 start(); 方法开启线程
         public static void (String[] args) {
             Demo dm = new Demo();
-            Thread td = new Thread(dm);             // 创建线程实例, 并传入实现了 Runnable 接口的类
-            td.start();                             // start(); 方法源自 继承的 Thread 父类
-        ]                                           // 调用后 CPU 会分配内存, 并调用重写的 run(); 方法
+            Thread td = new Thread(dm);                 // 创建线程实例, 并传入实现了 Runnable 接口的类
+            td.start();                                 // start(); 方法源自 继承的 Thread 父类
+        }                                               // 调用后 CPU 会分配内存, 并调用重写的 run(); 方法开启该线程
     }
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ```
 
-#### create thread
-
-``` javascript
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-/**
- * 创建线程
- * 
- * 
- * 
- */
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-```
-
-####
+#### 
 
 ``` javascript
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

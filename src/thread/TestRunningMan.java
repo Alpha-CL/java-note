@@ -10,9 +10,9 @@ public class TestRunningMan {
 
 
         /**
-         * Test RunningManOfExtendThread
+         * public class Demo extends Thread {}
          *
-         * 适用于单继承
+         * 适用于单继承时
          */
         // r1.start();
         // r2.start();
@@ -20,9 +20,9 @@ public class TestRunningMan {
 
 
         /**
-         * test RunningManOfImplementsRunnable
+         * public class abstract Demo implements Runnable {}
          *
-         * 适用于 多实现
+         * 适用于多层级继承时
          */
         Thread t1 = new Thread(r1);
         Thread t2 = new Thread(r2);
