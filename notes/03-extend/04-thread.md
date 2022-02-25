@@ -34,10 +34,6 @@
     - ...
 
 
-//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
-
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ```
 
@@ -56,21 +52,50 @@
                         notify / notifyAll
 
 
+//-------------------------------------------------------------------------------------------------------------------//
+
+/** thread usage **/
+
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
 
 
-// thread usage
+// method_01: 单继承
 
 
-1) create Class                                 // 创建一个类
+    1) Class Demo {}                                // 创建一个类
+    
+    2) Class Demo extend Thread {}                  // 必须继承 Thread 父类
+    
+    3) Class Demo extend Thread {
+        @overwrite 
+        public void run() {}                        // 必须重写 run(); 方法
+    }
+    
+    4) Class TestDemo {                             // 利用类的实例 的 start(); 方法开启线程
+        public static void (String[] args) {
+            Demo dm = new Demo();
+            dm.start();                             // start(); 方法源自 继承的 Thread 父类
+        ]                                           // 调用后 CPU 会分配内存, 并调用重写的 run(); 方法
+    }
 
-2) extend Thread                                // 必须继承 Thread 父类
 
-3) @overwrite class.run();                      // 重写 run(); 方法
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
 
-4) new Class -> classInstance.start();          // 利用类的实例 的 start(); 方法开启线程
 
-    - start(); 方法源自 继承的 Thread 父类         // 调用后 CPU 会分配内存, 并调用重写的 run(); 方法
+// method_02: 实现接口
+
+
+    1) Class Demo {}                                // 创建一个类
+    
+    2) Class Demo implements Runnable {}            // 必须实现 Runnable 接口
+
+    3) Class TestDemo {                             // 利用类的实例 的 start(); 方法开启线程
+        public static void (String[] args) {
+            Demo dm = new Demo();
+            Thread td = new Thread(dm);             // 创建线程实例, 并传入实现了 Runnable 接口的类
+            td.start();                             // start(); 方法源自 继承的 Thread 父类
+        ]                                           // 调用后 CPU 会分配内存, 并调用重写的 run(); 方法
+    }
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
