@@ -11,9 +11,14 @@ public class TestArrayListClass {
         Class cls = ArrayList.class;
         Class scls = cls.getSuperclass();
 
-        while(scls != null) {
-            System.out.println(scls.getName());
-            scls = scls.getSuperclass();
+        // while(scls != null) {
+        //     System.out.println(scls.getName());
+        //     scls = scls.getSuperclass();
+        // }
+
+        Class[] clsList = cls.getInterfaces();
+        for (Class c : clsList) {
+            System.out.println(c.getName());
         }
 
     }

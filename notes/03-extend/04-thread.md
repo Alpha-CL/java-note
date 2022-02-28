@@ -251,11 +251,22 @@ public void Method() {
 
 1) 获取 Class
 
+
     Class cls = Class.forName(String name);
 
     Class cls = [className].class;
 
     Class cls = [classInstance].getClass();
+
+
+
+    Class cls = [classInstance].getSuperClass();            // 获取父类的父类名
+
+    String modifier = cls.getModifiers();                   // 获取修饰符
+
+    String modifier = cls.getInterfaces();                  // 获取接口
+    
+    Object obj = cls.newInstance();                         // 创建类的实例
 
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
