@@ -4,17 +4,47 @@ import java.util.ArrayList;
 
 public class Store {
 
-    private ArrayList<String>  list = new ArrayList<String>();
+    private final ArrayList<String> list = new ArrayList<String>();
 
-    public void add() {
-        if(list.size() < 20) {
+    public synchronized void add() {
+        if (list.size() < 10) {
             list.add("a");
         } else {
-            return;
+            // return;
+            try {
+
+                this.notifyAll();
+
+                /**
+                 * Object.wait();
+                 *
+                 * 当前对象对应的线程 Thread.wait();
+                 */
+                this.wait();
+
+            } catch (InterruptedException e) {
+
+                e.printStackTrace();
+            }
         }
     }
 
-    public String get() {
-        return list.remove(0);
+    public synchronized void get() {
+
+        if (list.size() > 0) {
+
+            list.remove(0);
+
+        } else {
+
+            try {
+                this.notifyAll();
+                this.wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+        }
     }
+
 }

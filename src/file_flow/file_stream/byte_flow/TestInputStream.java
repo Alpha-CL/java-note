@@ -3,7 +3,7 @@ package file_flow.file_stream.byte_flow;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class TestByteFlow {
+public class TestInputStream {
 
     public static void main(String[] args) {
 

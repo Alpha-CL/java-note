@@ -1,10 +1,10 @@
-package file_flow.file_stream.character_flow;
+package file_flow.file_stream;
 
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class TestCharacterFlow {
+public class TestFileReader {
 
     public static void main(String[] args) {
 

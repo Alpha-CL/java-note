@@ -4,7 +4,7 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class TestFileBase {
+public class TestFileBaseMember {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package thread.case_producter;
 
 public class Producer extends Thread {
 
-    private Store store;
+    private final Store store;
 
     public Producer(Store store) {
         this.store = store;
@@ -11,11 +11,16 @@ public class Producer extends Thread {
     public void run() {
 
         while(true) {
+
             store.add();
-            System.out.println("生产者 存入 一件货物");
+            System.out.println("[ 生产者 ]: 存入 一件货物");
+
             try {
-                sleep(200);
+
+                sleep(100);
+
             } catch (InterruptedException e) {
+
                 e.printStackTrace();
             }
         }

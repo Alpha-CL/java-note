@@ -3,7 +3,7 @@ package file_flow.file_stream;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class TestInputFileStream {
+public class TestFileInputStream {
 
     public static void main(String[] args) {
 
@@ -14,9 +14,7 @@ public class TestInputFileStream {
          * 创建 File 对象, 建立与文件之间的联系,
          *
          *
-         *
          */
-
 
         String projectPath = System.getProperty("user.dir");
         String basePath = projectPath + "/src/file_flow/file_stream/test_file";
