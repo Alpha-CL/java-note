@@ -51,8 +51,5 @@ public class TestClass {
          */
         int modifier = cls2.getModifiers();
         System.out.println("getModifiers: " + modifier);
-
-
-
     }
 }
