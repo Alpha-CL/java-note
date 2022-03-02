@@ -2,7 +2,7 @@ package reflect;
 
 import java.lang.reflect.Field;
 
-public class TestPropInClass {
+public class TestClassField {
 
     public static void main(String[] args) {
 
