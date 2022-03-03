@@ -109,12 +109,7 @@ public class Person extends Animal implements TestInterface {
             }
 
         } catch (IOException e) {
-
             e.printStackTrace();
         }
-
     }
-
-
-
 }

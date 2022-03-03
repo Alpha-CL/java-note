@@ -1,7 +1,40 @@
 package reflect.CustomAnnotation;
 
-/** @interface: 定义注解类型 **/
+import java.lang.annotation.*;
+
+import static java.lang.annotation.ElementType.*;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+
+
+/**
+ * 元注解                         // 自定义注解需要 "元注解" 描述后才可以使用
+ *
+ *
+ * @Target(ElementType[])        // 指定该注解可以用于何处
+ *
+ * @Retention(RetentionPolicy)   // 指定当前注解存储在何处
+ *
+ *      - 源代码文件 --> 编译 --> 字节码文件 --> 加载 --> 内存执行
+ *        SOURCE                CLASS                 RUNTIME
+ *
+ * @Inherited                    // 允许被继承
+ *
+ *
+ * @Documented                   // 允许被文档记录
+ */
+
+// @Target({ElementType.FIELD, ElementType.METHOD, ElementType.TYPE})
+@Target({FIELD, METHOD, TYPE})
+@Retention(RUNTIME)
+@Inherited
+@Documented
 public @interface TestAnnotation {
+
+
+    /**
+     * @interface:
+     * 定义注解类型
+     */
 
 
     /**
@@ -11,7 +44,7 @@ public @interface TestAnnotation {
      *
      */
     // public static final String prop = "hello world";
-    String prop = "hello world";
+    String prop() default "prop default value";
 
 
     /**
@@ -23,16 +56,34 @@ public @interface TestAnnotation {
      *      注解数据类型        // @annotation
      *      数组数据类型        // <?>[]
      */
-    // public abstract String customMethod();
-    String customMethod();
+    // public abstract String method();
+    String method() default "method default value";
 
 
     /**
-     * 如何使用自定义注解
+     * value
      *
-     * 自定义注解需要 "java 中 元注解" 描述
+     *
+     * 仅当 当前注解 有且仅有一个方法时, 则可以使用 value
+     * 则使用该注解时候, 则可以直接传递值
+     *
+     * eg: TestAnnotation(method = "foo")
+     *     TestAnnotation(value = "foo") => TestAnnotation("foo")
      */
+    // String value();
 
 
-
+    /**
+     * 如何使用
+     *
+     *
+     * 1.
+     *
+     *
+     *
+     * 2. 使用自定义注解, 必须书写自定义注解名( java 内置注解, 则可以直接使用 )
+     *
+     *
+     *
+     */
 }
