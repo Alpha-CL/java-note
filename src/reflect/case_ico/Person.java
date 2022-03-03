@@ -1,8 +1,9 @@
 package reflect.case_ico;
 
 public class Person {//实体对象
+
     private String name;
-    private Integer age;//Integer       person类的信息  写在文件里   null  18
+    private Integer age;        // Integer       person类的信息  写在文件里   null  18
     private String sex;
 
     public Person() {

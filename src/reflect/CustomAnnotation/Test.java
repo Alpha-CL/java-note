@@ -2,11 +2,7 @@ package reflect.CustomAnnotation;
 
 public class Test {
 
-    @TestAnnotation(prop = "prop")
-    public String prop;
+    public static void main(String[] args) {
 
-    @TestAnnotation(method="method")
-    public String testMethod() {
-        return "test method annotation";
     }
 }
