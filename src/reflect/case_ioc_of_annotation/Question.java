@@ -1,10 +1,11 @@
-package reflect.case_ico;
+package reflect.case_ioc_of_annotation;
 
 public class Question {
 
     private String title;
     private String answer;
 
+    @CustomAnnotation({"Do you marry me ?", "A. yes i do.\tB. sorry, you are a good man."})
     public Question() {
     }
 

@@ -1,6 +1,4 @@
-package reflect.case_ico;
-
-import java.time.Period;
+package reflect.case_ioc;
 
 public class Test {
 

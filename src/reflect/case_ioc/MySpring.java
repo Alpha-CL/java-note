@@ -1,4 +1,4 @@
-package reflect.case_ico;
+package reflect.case_ioc;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
