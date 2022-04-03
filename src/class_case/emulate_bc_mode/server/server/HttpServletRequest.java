@@ -2,15 +2,15 @@ package class_case.emulate_bc_mode.server.server;
 
 import java.util.HashMap;
 
-public class Request {
+public class HttpServletRequest {
 
     private String content;
     private HashMap<String, String> paramsMap;
 
-    public Request() {
+    public HttpServletRequest() {
     }
 
-    public Request(String content, HashMap<String, String> paramsMap) {
+    public HttpServletRequest(String content, HashMap<String, String> paramsMap) {
         this.content = content;
         this.paramsMap = paramsMap;
     }
@@ -29,5 +29,9 @@ public class Request {
 
     public void setParamsMap(HashMap<String, String> paramsMap) {
         this.paramsMap = paramsMap;
+    }
+
+    public String getParameter(String key){
+        return this.paramsMap.get(key);
     }
 }

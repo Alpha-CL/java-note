@@ -1,0 +1,7 @@
++*******************<br/>
+****** 银行系统 *****<br/>
+********************<br/>
+<form action="login" method="post"/><br/>
+请输入账号: <input key="account" value=""/><br/>
+请输入密码: <input key="password" value=""/><br/>
+</form>/<br/>

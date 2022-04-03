@@ -8,7 +8,7 @@ public class Server {
 
     public void start() {
 
-        int port = 9999;
+        int port = Integer.parseInt(ServerFileReader.getValue("port"));
 
         System.out.println("===================");
         System.out.println("Server start");
@@ -20,6 +20,7 @@ public class Server {
             ServerSocket server = new ServerSocket(port);
 
             while (true) {
+
                 Socket socket = server.accept();
                 new ServerHandler(socket).start();
             }

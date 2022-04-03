@@ -1,15 +1,12 @@
 package class_case.emulate_bc_mode.server.server;
 
 import java.io.*;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.net.Socket;
 import java.util.HashMap;
-import java.util.Properties;
 
 public class ServerHandler extends Thread {
 
-    private Socket socket;
+    private final Socket socket;
 
     public ServerHandler(Socket socket) {
         this.socket = socket;
@@ -61,32 +58,26 @@ public class ServerHandler extends Thread {
             content = contentAndParams;
         }
 
-        Request request = new Request(content, paramsMap);
-        Response response = new Response();
-        this.findController(request, response);
+        HttpServletRequest request = new HttpServletRequest(content, paramsMap);
+        HttpServletResponse response = new HttpServletResponse();
+
+        ServletController.findController(request, response);
+
+        this.responseToBrowser(response);
     }
 
-    private void findController(Request request, Response response) {
+    private void responseToBrowser(HttpServletResponse response) {
 
-        String content = request.getContent();
-
-        Properties properties = new Properties();
         try {
 
-            properties.load(new FileReader("src/class_case/emulate_bc_mode/web.properties"));
-            String realControllerName = properties.getProperty(content);
-            Class<?> cls = Class.forName(realControllerName);
-            Object ins = cls.newInstance();
-            Method method = cls.getMethod("test", Request.class, Response.class);
-            method.invoke(ins, request, response);
+            PrintWriter out = new PrintWriter(socket.getOutputStream());
+            out.println(response.getResponseContent());
+            out.flush();
 
-        } catch (IOException | ClassNotFoundException | NoSuchMethodException | IllegalAccessException | InvocationTargetException | InstantiationException e) {
+        } catch (IOException e) {
+
             e.printStackTrace();
         }
-    }
-
-    private void responseToBrowser() {
-
     }
 }
 
