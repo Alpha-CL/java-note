@@ -1,4 +1,4 @@
-package class_case.emulate_bc_mode.server.server;
+package class_case.tomcat.server.server;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class ServerFileReader {
         try {
 
             Properties properties = new Properties();
-            properties.load(new FileReader("src/class_case/emulate_bc_mode/server.properties"));
+            properties.load(new FileReader("src/class_case/tomcat/server.properties"));
 
             Enumeration<?> enumeration = properties.propertyNames();
 

@@ -1,4 +1,5 @@
-package class_case.emulate_bc_mode.browser;
+package class_case.tomcat.browser;
+
 
 public class Test {
 

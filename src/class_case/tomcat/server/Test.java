@@ -1,6 +1,7 @@
-package class_case.emulate_bc_mode.server;
+package class_case.tomcat.server;
 
-import class_case.emulate_bc_mode.server.server.Server;
+
+import class_case.tomcat.server.server.Server;
 
 public class Test {
 

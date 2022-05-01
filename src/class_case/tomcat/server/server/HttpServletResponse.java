@@ -1,6 +1,9 @@
-package class_case.emulate_bc_mode.server.server;
+package class_case.tomcat.server.server;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class HttpServletResponse {
 
@@ -16,7 +19,7 @@ public class HttpServletResponse {
 
     public void sendRedirect(String path) {
 
-        String BASE_PATH = "src/class_case/emulate_bc_mode/";
+        String BASE_PATH = "src/class_case/tomcat/server/file/";
 
         try {
 
@@ -25,6 +28,7 @@ public class HttpServletResponse {
             String lineContent = reader.readLine();
 
             while (lineContent != null) {
+
                 this.responseContent.append(lineContent);
                 lineContent = reader.readLine();
             }

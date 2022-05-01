@@ -1,4 +1,4 @@
-package class_case.emulate_bc_mode.server.server;
+package class_case.tomcat.server.server;
 
 public class HtmlElement {
 
@@ -11,7 +11,7 @@ public class HtmlElement {
     @Override
     public String toString() {
 
-        StringBuilder builder = new StringBuilder("{");
+        StringBuilder builder = new StringBuilder("{ ");
 
         builder.append(" type: ");
         builder.append("\"").append(this.type).append("\"");

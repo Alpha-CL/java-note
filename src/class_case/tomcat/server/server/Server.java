@@ -1,4 +1,4 @@
-package class_case.emulate_bc_mode.server.server;
+package class_case.tomcat.server.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -6,14 +6,18 @@ import java.net.Socket;
 
 public class Server {
 
+    /**
+     *
+     */
+
     public void start() {
 
         int port = Integer.parseInt(ServerFileReader.getValue("port"));
 
-        System.out.println("===================");
+        System.out.println("==================");
         System.out.println("Server start");
         System.out.println("IP: localhost:" + port);
-        System.out.println("===================");
+        System.out.println("==================");
 
         try {
 
@@ -30,4 +34,5 @@ public class Server {
             e.printStackTrace();
         }
     }
+
 }
