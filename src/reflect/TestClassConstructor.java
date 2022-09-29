@@ -7,12 +7,9 @@ public class TestClassConstructor {
 
     public static void main(String[] args) {
 
-
         Class<Person> cls = Person.class;
 
-
         try {
-
 
             /** 获取实例 **/
             Constructor<Person> ct1 = cls.getConstructor();                                 // 获取无参数构造方法
