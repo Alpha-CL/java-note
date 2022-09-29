@@ -11,8 +11,5 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 public @interface CustomAnnotation {
 
-
     String[] value() default {"alpha", "18", "male"};
-
-
 }
