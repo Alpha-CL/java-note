@@ -1,4 +1,4 @@
-package reflect.case_ioc_of_annotation;
+package src.reflect.case_ioc_of_annotation;
 
 public class Test {
 
@@ -8,7 +8,7 @@ public class Test {
         MySpring ms = new MySpring();
 
 
-        Person person = (Person) ms.getBean("reflect.case_ioc_of_annotation.Person");
+        Person person = (Person) ms.getBean("src.reflect.case_ioc_of_annotation.Person");
         @SuppressWarnings("all")
         StringBuilder personInfo = new StringBuilder("My name is ");
         personInfo.append(person.getName()).append(", ");
@@ -16,7 +16,7 @@ public class Test {
         System.out.println(personInfo);
 
 
-        Identity identity = (Identity) ms.getBean("reflect.case_ioc_of_annotation.Identity");
+        Identity identity = (Identity) ms.getBean("src.reflect.case_ioc_of_annotation.Identity");
         @SuppressWarnings("all")
         StringBuilder identityInfo = new StringBuilder("");
         identityInfo.append("username: ").append(identity.getUsername()).append("; ");
@@ -25,7 +25,7 @@ public class Test {
         System.out.println(identityInfo);
 
 
-        Question question = (Question) ms.getBean("reflect.case_ioc_of_annotation.Question");
+        Question question = (Question) ms.getBean("src.reflect.case_ioc_of_annotation.Question");
         @SuppressWarnings("all")
         StringBuilder questionInfo = new StringBuilder("");
         questionInfo.append(question.getTitle()).append("\n");

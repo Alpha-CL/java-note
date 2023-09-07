@@ -1,4 +1,4 @@
-package reflect.TestClassAnnotation;
+package src.reflect.TestClassAnnotation;
 
 public class Animal {
 

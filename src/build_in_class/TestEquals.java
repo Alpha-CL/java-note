@@ -1,4 +1,4 @@
-package build_in_class;
+package src.build_in_class;
 
 public class TestEquals {
 

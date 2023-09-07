@@ -1,4 +1,4 @@
-package feature_modifier.feature_modifier_final;
+package src.feature_modifier.feature_modifier_final;
 
 final class feature_modifier {                              // 该类不能被继承( 通常用于工具类 )
 

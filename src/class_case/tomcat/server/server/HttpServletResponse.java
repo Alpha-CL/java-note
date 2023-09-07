@@ -1,4 +1,4 @@
-package class_case.tomcat.server.server;
+package src.class_case.tomcat.server.server;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -19,7 +19,7 @@ public class HttpServletResponse {
 
     public void sendRedirect(String path) {
 
-        String BASE_PATH = "src/class_case/tomcat/server/file/";
+        String BASE_PATH = "src/src.class_case/tomcat/server/file/";
 
         try {
 

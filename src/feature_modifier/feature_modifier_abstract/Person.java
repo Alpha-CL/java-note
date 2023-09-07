@@ -1,4 +1,4 @@
-package feature_modifier.feature_modifier_abstract;
+package src.feature_modifier.feature_modifier_abstract;
 
 public class Person extends Animal {
 

@@ -1,4 +1,4 @@
-package build_in_class.StringCase;
+package src.build_in_class.StringCase;
 
 public class Test {
 

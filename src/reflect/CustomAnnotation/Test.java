@@ -1,4 +1,4 @@
-package reflect.CustomAnnotation;
+package src.reflect.CustomAnnotation;
 
 public class Test {
 

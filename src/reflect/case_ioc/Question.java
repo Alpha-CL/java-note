@@ -1,6 +1,6 @@
-package reflect.case_ioc;
+package src.reflect.case_ioc;
 
-import reflect.case_ioc_of_annotation.CustomAnnotation;
+import src.reflect.case_ioc_of_annotation.CustomAnnotation;
 
 public class Question {
 

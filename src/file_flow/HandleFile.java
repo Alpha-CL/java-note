@@ -1,4 +1,4 @@
-package file_flow;
+package src.file_flow;
 
 import java.io.*;
 import java.util.regex.Matcher;

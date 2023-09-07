@@ -1,4 +1,4 @@
-package file_flow.file_stream;
+package src.file_flow.file_stream;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -9,7 +9,7 @@ public class TestFileReader {
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String file = projectPath + "/src/file_flow/character_flow/test_file.txt";
+        String file = projectPath + "/src/src.file_flow/character_flow/test_file.txt";
 
         FileReader fr = null;
         FileWriter fw = null;

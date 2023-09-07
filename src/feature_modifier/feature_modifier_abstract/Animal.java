@@ -1,4 +1,4 @@
-package feature_modifier.feature_modifier_abstract;
+package src.feature_modifier.feature_modifier_abstract;
 
 /**
  * abstract class           // 抽象类中不一定包含抽象方法

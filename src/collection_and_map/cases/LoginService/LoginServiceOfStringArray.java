@@ -1,4 +1,4 @@
-package collection_and_map.cases.LoginService;
+package src.collection_and_map.cases.LoginService;
 
 import java.util.Objects;
 

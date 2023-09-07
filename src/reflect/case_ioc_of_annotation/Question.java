@@ -1,4 +1,4 @@
-package reflect.case_ioc_of_annotation;
+package src.reflect.case_ioc_of_annotation;
 
 public class Question {
 

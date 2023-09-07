@@ -1,4 +1,4 @@
-package array.array_box;
+package src.array.array_box;
 
 public class ArrayBox<E> {
 
@@ -64,11 +64,11 @@ public class ArrayBox<E> {
      */
     public void printlnArr() {
 
-        System.out.println("<!-- println array start -->");
+        System.out.println("<!-- println src.array start -->");
         for (int i = 0; i < arr.length; i++) {
             System.out.println("arr[" + i + "]: " + arr[i]);
         }
-        System.out.println("<!-- println array end -->");
+        System.out.println("<!-- println src.array end -->");
     }
 
     /**

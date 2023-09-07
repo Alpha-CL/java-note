@@ -1,4 +1,4 @@
-package feature_modifier.interface_class;
+package src.feature_modifier.interface_class;
 
 public interface TestInterface {
 

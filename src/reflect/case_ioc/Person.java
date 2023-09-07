@@ -1,4 +1,4 @@
-package reflect.case_ioc;
+package src.reflect.case_ioc;
 
 public class Person {//实体对象
 

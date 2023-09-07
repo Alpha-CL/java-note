@@ -1,4 +1,4 @@
-package error;
+package src.error;
 
 public class MyException extends Exception{
 

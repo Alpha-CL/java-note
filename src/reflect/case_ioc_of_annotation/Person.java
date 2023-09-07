@@ -1,6 +1,4 @@
-package reflect.case_ioc_of_annotation;
-
-import java.time.Period;
+package src.reflect.case_ioc_of_annotation;
 
 public class Person {
 

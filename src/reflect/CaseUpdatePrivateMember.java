@@ -1,4 +1,4 @@
-package reflect;
+package src.reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -17,7 +17,7 @@ public class CaseUpdatePrivateMember {
         try {
 
             Class cls = null;
-            cls = Class.forName("reflect.Person");
+            cls = Class.forName("src.reflect.Person");
             Person p1 = new Person();
 
             Field[] allProps = cls.getDeclaredFields();

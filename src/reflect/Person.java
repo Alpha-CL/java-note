@@ -1,4 +1,4 @@
-package reflect;
+package src.reflect;
 
 public class Person extends Animal {
 

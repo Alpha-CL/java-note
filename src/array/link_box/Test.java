@@ -1,4 +1,4 @@
-package array.link_box;
+package src.array.link_box;
 
 public class Test {
 

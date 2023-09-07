@@ -1,6 +1,5 @@
-package build_in_class;
+package src.build_in_class;
 
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

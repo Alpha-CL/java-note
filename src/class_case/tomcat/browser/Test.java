@@ -1,4 +1,4 @@
-package class_case.tomcat.browser;
+package src.class_case.tomcat.browser;
 
 
 public class Test {

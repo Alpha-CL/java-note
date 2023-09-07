@@ -1,4 +1,4 @@
-package array.array_box;
+package src.array.array_box;
 
 public interface Box {
 

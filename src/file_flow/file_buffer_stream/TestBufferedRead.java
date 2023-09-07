@@ -1,7 +1,6 @@
-package file_flow.file_buffer_stream;
+package src.file_flow.file_buffer_stream;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -10,7 +9,7 @@ public class TestBufferedRead {
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String testFilePath = projectPath + "/src/file_flow/file_buffer_stream/test_file/user_list.txt";
+        String testFilePath = projectPath + "/src/src.file_flow/file_buffer_stream/test_file/user_list.txt";
 
         FileReader fr = null;
         BufferedReader br = null;

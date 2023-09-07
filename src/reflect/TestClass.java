@@ -1,6 +1,4 @@
-package reflect;
-
-import java.time.Period;
+package src.reflect;
 
 public class TestClass {
 
@@ -14,7 +12,7 @@ public class TestClass {
 
         try {
 
-            cls1 = Class.forName("reflect.Person");
+            cls1 = Class.forName("src.reflect.Person");
             cls4 = cls1.getSimpleName();
 
             System.out.println("Class.forName(String className): " + cls1);                         // 类全名

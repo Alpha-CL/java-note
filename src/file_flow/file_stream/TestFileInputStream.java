@@ -1,4 +1,4 @@
-package file_flow.file_stream;
+package src.file_flow.file_stream;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,7 +17,7 @@ public class TestFileInputStream {
          */
 
         String projectPath = System.getProperty("user.dir");
-        String basePath = projectPath + "/src/file_flow/file_stream/test_file";
+        String basePath = projectPath + "/src/src.file_flow/file_stream/test_file";
 
 
         FileInputStream fileInputStream1 = null;

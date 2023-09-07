@@ -1,4 +1,4 @@
-package design_mode.singleton;
+package src.design_mode.singleton;
 
 public class SingleTon {
 

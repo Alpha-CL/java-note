@@ -1,4 +1,4 @@
-package class_case.garbage_collection;
+package src.class_case.garbage_collection;
 
 public class TestGC {
 

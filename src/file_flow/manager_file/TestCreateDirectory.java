@@ -1,4 +1,4 @@
-package file_flow.manager_file;
+package src.file_flow.manager_file;
 
 import java.io.File;
 
@@ -8,7 +8,7 @@ public class TestCreateDirectory {
 
 
         String projectPath = System.getProperty("user.dir");
-        String basePath = projectPath + "/src/file_flow/manager_file/test_file";
+        String basePath = projectPath + "/src/src.file_flow/manager_file/test_file";
 
 
         File file1 = new File(basePath + "/createDirectory1");

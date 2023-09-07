@@ -1,4 +1,4 @@
-package file_flow.file_buffer_stream;
+package src.file_flow.file_buffer_stream;
 
 import java.io.*;
 
@@ -7,7 +7,7 @@ public class TestBufferedWrite {
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String testFilePath = projectPath + "/src/file_flow/file_buffer_stream/test_file/test_write.txt";
+        String testFilePath = projectPath + "/src/src.file_flow/file_buffer_stream/test_file/test_write.txt";
 
         FileWriter fw = null;
         BufferedWriter bw = null;

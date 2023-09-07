@@ -1,4 +1,4 @@
-package class_case.class_enum;
+package src.class_case.class_enum;
 
 import java.util.Scanner;
 

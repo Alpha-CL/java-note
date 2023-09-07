@@ -1,6 +1,4 @@
-package collection_and_map.list.ArrayList;
-
-import java.util.Queue;
+package src.collection_and_map.list.ArrayList;
 
 public class TestQueue {
 

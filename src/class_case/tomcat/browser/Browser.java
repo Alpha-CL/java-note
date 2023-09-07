@@ -1,6 +1,6 @@
-package class_case.tomcat.browser;
+package src.class_case.tomcat.browser;
 
-import class_case.tomcat.server.server.HtmlElement;
+import src.class_case.tomcat.server.server.HtmlElement;
 
 import java.io.BufferedReader;
 import java.io.IOException;

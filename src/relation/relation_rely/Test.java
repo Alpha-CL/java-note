@@ -1,4 +1,4 @@
-package relation.relation_rely;
+package src.relation.relation_rely;
 
 public class Test {
 

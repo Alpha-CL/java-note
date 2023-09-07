@@ -1,4 +1,4 @@
-package class_case.runtime;
+package src.class_case.runtime;
 
 public class TestRunTime {
 

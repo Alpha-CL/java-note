@@ -1,4 +1,4 @@
-package collection_and_map.cases.Examination;
+package src.collection_and_map.cases.Examination;
 
 import java.util.ArrayList;
 import java.util.HashMap;

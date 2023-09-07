@@ -1,4 +1,4 @@
-package collection_and_map.list.LinkedList;
+package src.collection_and_map.list.LinkedList;
 
 import java.util.LinkedList;
 

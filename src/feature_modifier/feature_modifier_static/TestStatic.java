@@ -1,4 +1,4 @@
-package feature_modifier.feature_modifier_static;
+package src.feature_modifier.feature_modifier_static;
 
 public class TestStatic {
 

@@ -1,4 +1,4 @@
-package build_in_class;
+package src.build_in_class;
 
 public class TestString {
 
@@ -120,7 +120,7 @@ public class TestString {
          */
 
         /**
-         * string -> array          // 将字符串转换为指定类型的数组
+         * string -> src.array          // 将字符串转换为指定类型的数组
          *
          *
          * getBytes(): byte[];

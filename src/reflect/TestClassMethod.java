@@ -1,8 +1,7 @@
-package reflect;
+package src.reflect;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.time.Period;
 
 public class TestClassMethod {
 

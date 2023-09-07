@@ -1,4 +1,4 @@
-package collection_and_map.set.TreeSet;
+package src.collection_and_map.set.TreeSet;
 
 public class Person implements Comparable<Person> {
 

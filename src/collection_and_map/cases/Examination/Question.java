@@ -1,6 +1,5 @@
-package collection_and_map.cases.Examination;
+package src.collection_and_map.cases.Examination;
 
-import java.util.Arrays;
 import java.util.Objects;
 
 public class Question {

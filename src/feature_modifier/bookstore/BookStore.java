@@ -1,4 +1,4 @@
-package feature_modifier.bookstore;
+package src.feature_modifier.bookstore;
 
 public class BookStore {
 

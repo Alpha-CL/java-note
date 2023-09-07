@@ -1,4 +1,4 @@
-package design_mode.adapter;
+package src.design_mode.adapter;
 
 public abstract class User {
 

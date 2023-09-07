@@ -1,7 +1,7 @@
-package class_case.tomcat.server;
+package src.class_case.tomcat.server;
 
 
-import class_case.tomcat.server.server.Server;
+import src.class_case.tomcat.server.server.Server;
 
 public class Test {
 

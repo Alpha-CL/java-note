@@ -1,4 +1,4 @@
-package file_flow.file_buffer_stream;
+package src.file_flow.file_buffer_stream;
 
 import java.io.*;
 
@@ -7,7 +7,7 @@ public class TestBufferedInputStream {
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String testFilePath = projectPath + "/src/file_flow/file_buffer_stream/test_file/test_bit_flow.txt";
+        String testFilePath = projectPath + "/src/src.file_flow/file_buffer_stream/test_file/test_bit_flow.txt";
 
         FileInputStream fis = null;
         File file = null;

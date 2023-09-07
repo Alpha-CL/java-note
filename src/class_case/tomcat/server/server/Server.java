@@ -1,4 +1,4 @@
-package class_case.tomcat.server.server;
+package src.class_case.tomcat.server.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;

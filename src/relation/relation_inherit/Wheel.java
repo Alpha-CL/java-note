@@ -1,4 +1,4 @@
-package relation.relation_inherit;
+package src.relation.relation_inherit;
 
 public class Wheel {
 

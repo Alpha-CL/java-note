@@ -1,4 +1,4 @@
-package file_flow.file_stream.byte_flow;
+package src.file_flow.file_stream.byte_flow;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class TestInputStream {
 
 
         String projectPath = System.getProperty("user.dir");
-        String basePath = projectPath + "/src/file_flow/byte_flow/test_file.txt";
+        String basePath = projectPath + "/src/src.file_flow/byte_flow/test_file.txt";
 
         /**
          * 字节流

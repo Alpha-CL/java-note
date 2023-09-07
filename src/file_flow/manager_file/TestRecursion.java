@@ -1,4 +1,4 @@
-package file_flow.manager_file;
+package src.file_flow.manager_file;
 
 public class TestRecursion {
 

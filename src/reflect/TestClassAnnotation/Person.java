@@ -1,4 +1,4 @@
-package reflect.TestClassAnnotation;
+package src.reflect.TestClassAnnotation;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -98,7 +98,7 @@ public class Person extends Animal implements TestInterface {
         try {
 
             Properties pro = new Properties();
-            pro.load(new FileReader("src/reflect/TestClassAnnotation/db.properties"));
+            pro.load(new FileReader("src/src.reflect/TestClassAnnotation/db.properties"));
 
             // @SuppressWarnings("unchecked")
             Enumeration<?> en = pro.propertyNames();

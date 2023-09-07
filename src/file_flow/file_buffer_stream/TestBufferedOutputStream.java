@@ -1,4 +1,4 @@
-package file_flow.file_buffer_stream;
+package src.file_flow.file_buffer_stream;
 
 public class TestBufferedOutputStream {
 

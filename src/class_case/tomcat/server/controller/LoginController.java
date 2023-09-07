@@ -1,8 +1,8 @@
-package class_case.tomcat.server.controller;
+package src.class_case.tomcat.server.controller;
 
-import class_case.tomcat.server.server.HttpServletRequest;
-import class_case.tomcat.server.server.HttpServletResponse;
-import class_case.tomcat.server.server.HttpServlet;
+import src.class_case.tomcat.server.server.HttpServletRequest;
+import src.class_case.tomcat.server.server.HttpServletResponse;
+import src.class_case.tomcat.server.server.HttpServlet;
 
 public class LoginController extends HttpServlet {
 

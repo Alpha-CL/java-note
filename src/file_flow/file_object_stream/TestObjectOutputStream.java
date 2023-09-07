@@ -1,4 +1,4 @@
-package file_flow.file_object_stream;
+package src.file_flow.file_object_stream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class TestObjectOutputStream {
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String testFilePath = projectPath + "/src/file_flow/file_object_stream/test_file/test_object_stream.txt";
+        String testFilePath = projectPath + "/src/src.file_flow/file_object_stream/test_file/test_object_stream.txt";
 
         Demo dm = null;
         FileOutputStream fos = null;

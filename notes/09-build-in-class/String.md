@@ -29,7 +29,7 @@ public final class String {
         
         - final: 不可改变的引用地址
         
-        - array.length: 不可改变( 创建时及定义 )
+        - src.array.length: 不可改变( 创建时及定义 )
                         仅可改变数组中的子项的内容( 但 private 限制不可在外部访问 )
 }
 

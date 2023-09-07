@@ -1,15 +1,14 @@
-package file_flow;
+package src.file_flow;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 
 public class TestHandleFile {
 
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String basePath = projectPath + "/src/file_flow/test_file";
-        String copyPath = projectPath + "/src/file_flow/test_copy";
+        String basePath = projectPath + "/src/src.file_flow/test_file";
+        String copyPath = projectPath + "/src/src.file_flow/test_copy";
 
         String[] CONTENTS = new String[]{"hello world", "just do it", "alpha"};
 

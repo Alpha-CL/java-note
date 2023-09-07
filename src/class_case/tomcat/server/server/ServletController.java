@@ -1,4 +1,4 @@
-package class_case.tomcat.server.server;
+package src.class_case.tomcat.server.server;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -17,7 +17,7 @@ public class ServletController {
 
         try {
             Properties properties = new Properties();
-            properties.load(new FileReader("src/class_case/tomcat/web.properties"));
+            properties.load(new FileReader("src/src.class_case/tomcat/web.properties"));
             Enumeration<?> enumeration = properties.propertyNames();
 
             System.out.println("\n/* controllerNameMap start */");

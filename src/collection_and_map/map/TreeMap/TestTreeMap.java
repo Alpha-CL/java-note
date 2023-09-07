@@ -1,4 +1,4 @@
-package collection_and_map.map.TreeMap;
+package src.collection_and_map.map.TreeMap;
 
 import java.util.TreeMap;
 

@@ -1,12 +1,12 @@
 # class advance
 
-## class relation
+## class src.array.src.relation
 
 ``` javascript
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// class relation
+// class src.array.src.relation
 
 
 A is B          // 继承 extend
@@ -191,7 +191,7 @@ super: 指向父类
 
 ## Modifier
 
-#### power_modifier
+#### src.array.src.power_modifier
 
 ``` javascript
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -250,7 +250,7 @@ public > protected > default unwrite > private                        ( 不能�
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ```
 
-#### feature_modifier.feature_modifier_final
+#### src.array.src.feature_modifier.feature_modifier_final
 
 ``` javascript
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -422,7 +422,7 @@ test.p = null;
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
 
 
-// error
+// src.array.src.error
 
     - 堆内存溢出: OutOfMemoryError
     
@@ -553,7 +553,7 @@ test.p = null;
 
 ## modifier
 
-#### power_modifier
+#### src.array.src.power_modifier
 
 ``` javascript
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

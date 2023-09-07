@@ -1,4 +1,4 @@
-package file_flow.file_object_stream;
+package src.file_flow.file_object_stream;
 
 import java.io.Serial;
 import java.io.Serializable;

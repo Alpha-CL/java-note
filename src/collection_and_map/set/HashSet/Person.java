@@ -1,4 +1,4 @@
-package collection_and_map.set.HashSet;
+package src.collection_and_map.set.HashSet;
 
 public class Person {
 

@@ -1,6 +1,5 @@
-package collection_and_map.map.HashMap;
+package src.collection_and_map.map.HashMap;
 
-import javax.swing.text.html.parser.Entity;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;

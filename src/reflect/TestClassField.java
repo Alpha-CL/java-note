@@ -1,4 +1,4 @@
-package reflect;
+package src.reflect;
 
 import java.lang.reflect.Field;
 
@@ -8,7 +8,7 @@ public class TestClassField {
 
         try {
 
-            Class cls = Class.forName("reflect.Person");
+            Class cls = Class.forName("src.reflect.Person");
 
             /** 获取单个公共属性 **/
             Field singlePublicProp = cls.getField("name");              // 获取指定属性

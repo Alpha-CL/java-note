@@ -1,4 +1,4 @@
-package class_case.class_polymorphism;
+package src.class_case.class_polymorphism;
 
 public class Test {
 
