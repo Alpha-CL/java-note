@@ -1,4 +1,4 @@
-# src.array
+# temp.array
 
 #### introduction
 
@@ -6,7 +6,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// src.array: 一组 "相同数据类型" 的数据( 创建数组时, 必须确认 "长度" & "数据类型" )
+// temp.array: 一组 "相同数据类型" 的数据( 创建数组时, 必须确认 "长度" & "数据类型" )
 
 
     1) 数组本是 "引用数据类型"
@@ -81,12 +81,12 @@ eg:
 // 通过数组索引访问数组子项( 索引 0 ~ +infinty )
 // 数组长度: [0, length - 1]
 
-int [] src.array = new int [] { 1, 2, 3, 4, 5, 6 }
+int [] temp.array = new int [] { 1, 2, 3, 4, 5, 6 }
 
-init child_01 = src.array[0];
-init child_02 = src.array[1];
-init child_03 = src.array[2];
-init child_04 = src.array[3];
+init child_01 = temp.array[0];
+init child_02 = temp.array[1];
+init child_03 = temp.array[2];
+init child_04 = temp.array[3];
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
