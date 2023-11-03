@@ -1,6 +1,6 @@
 # file stream
 
-#### inherit src.array.src.relation
+#### inherit temp.array.temp.relation
 
 ``` javascript
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -76,7 +76,7 @@ idea: UTF-8
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
 
 
-/** file src.array stream **/
+/** file temp.array stream **/
 
     // byte[]
     ByteArrayInputStream, ByteArrayOutputStream
@@ -194,7 +194,7 @@ idea: UTF-8
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ```
 
-#### src.array.src.file_flow vs buffer_file_flow
+#### temp.array.temp.file_flow vs buffer_file_flow
 
 ``` javascript
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

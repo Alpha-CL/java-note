@@ -14,16 +14,17 @@ public class TestRunningMan {
          *
          * 适用于单继承时
          */
+
         // r1.start();
         // r2.start();
         // r3.start();
-
 
         /**
          * public class abstract Demo implements Runnable {}
          *
          * 适用于多层级继承时
          */
+
         Thread t1 = new Thread(r1);
         Thread t2 = new Thread(r2);
         Thread t3 = new Thread(r3);

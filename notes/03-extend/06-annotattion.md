@@ -74,7 +74,7 @@ class, prop, method, constructor, param
 
     单行注释: //
     
-    多行注释: /*   */
+    多行注释: /**   */
     
     文档注释: /**  */
 

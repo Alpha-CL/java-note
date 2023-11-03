@@ -1,4 +1,4 @@
-# src.array.src.reflect
+# temp.array.temp.reflect
 
 #### introduction
 
@@ -7,7 +7,7 @@
 
 
 /**
- * src.array.src.reflect
+ * temp.array.temp.reflect
  * 
  * 
  * 利用 反射机制 几乎可以 操作 类 中的 任意成员
@@ -17,7 +17,7 @@
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
 
 
-                                        // src.array.src.reflect: 类描述对象, 反射描述类
+                                        // temp.array.temp.reflect: 类描述对象, 反射描述类
 
                                         + ----------------- +           Class              // 描述类本身
                                         |                   |
