@@ -4,7 +4,6 @@ import java.util.logging.*;
 
 public class Print {
 
-
     public static void main(String[] args) {
 
         Print print = new Print();

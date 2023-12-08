@@ -2,7 +2,6 @@ package src.java.Base.DataType;
 
 public class TypeConversion {
 
-
     public static void main(String[] args) {
 
         TypeConversion typeConversion = new TypeConversion();
@@ -43,7 +42,6 @@ public class TypeConversion {
 
         System.out.println("=>(TypeConversion.java:32) characterNumToIntNum: " + characterNumToIntNum);
     }
-
 
     /**
      * 显式类型转换( 强制类型转换 )             // 大空间 -> 小空间
