@@ -9,7 +9,7 @@ public class TestFileOutputStream {
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String basePath = projectPath + "/src/src.java.file_flow/file_stream/test_file";
+        String basePath = projectPath + "/src/java/FileStream/FileStream/files";
 
         File file1 = new File(basePath + "/testOutputStream1.md");
         File file2 = new File(basePath + "/testOutputStream2.md");

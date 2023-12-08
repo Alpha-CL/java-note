@@ -1,4 +1,4 @@
-package src.java.Extend.Clazz.DesignMode.adapter;
+package src.java.Extend.Clazz.DesignMode.Adapter;
 
 public class YoungPeople extends User {
 

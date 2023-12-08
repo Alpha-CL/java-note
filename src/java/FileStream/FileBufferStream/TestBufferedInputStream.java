@@ -7,7 +7,7 @@ public class TestBufferedInputStream {
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String testFilePath = projectPath + "/src/src.java.file_flow/file_buffer_stream/test_file/test_bit_flow.txt";
+        String testFilePath = projectPath + "/src/java/FileStream/FileBufferStream/files/test_bit_stream.txt";
 
         FileInputStream fis = null;
         File file = null;

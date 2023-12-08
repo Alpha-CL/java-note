@@ -9,7 +9,7 @@ public class TestInputStream {
 
 
         String projectPath = System.getProperty("user.dir");
-        String basePath = projectPath + "/src/src.java.file_flow/byte_flow/test_file.txt";
+        String basePath = projectPath + "/src/java/FileStream/FileStream/ByteStream/test_file.txt";
 
         /**
          * 字节流

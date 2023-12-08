@@ -9,14 +9,13 @@ public class TestBufferedRead {
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String testFilePath = projectPath + "/src/src.java.file_flow/file_buffer_stream/test_file/user_list.txt";
+        String testFilePath = projectPath + "/src/java/FileStream/FileBufferStream/files/user_list.txt";
 
         FileReader fr = null;
         BufferedReader br = null;
 
         /**
          * br.readLine();
-         *
          *
          * 获取一行的内容
          */

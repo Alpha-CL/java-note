@@ -9,7 +9,7 @@ public class TestFileReader {
     public static void main(String[] args) {
 
         String projectPath = System.getProperty("user.dir");
-        String file = projectPath + "/src/src.java.file_flow/character_flow/test_file.txt";
+        String file = projectPath + "/src/java/FileStream/FileStream/files/test_file.txt";
 
         FileReader fr = null;
         FileWriter fw = null;

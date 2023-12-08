@@ -8,7 +8,7 @@ public class TestCreateDirectory {
 
 
         String projectPath = System.getProperty("user.dir");
-        String basePath = projectPath + "/src/src.java.file_flow/manager_file/test_file";
+        String basePath = projectPath + "/src/java/FileStream/ManagementFile/files";
 
 
         File file1 = new File(basePath + "/createDirectory1");

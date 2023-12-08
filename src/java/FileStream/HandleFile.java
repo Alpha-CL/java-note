@@ -210,16 +210,16 @@ public class HandleFile {
         String curFileName = curFile.getName();
         String curDirName = curFile.getParent();
 
-//        System.out.println(curDirName);
+        // System.out.println(curDirName);
 
         String newFilePath = "";
         File newFile = null;
 
-//         System.out.println("[tarPath]: " + tarPath);
+        // System.out.println("[tarPath]: " + tarPath);
         // System.out.println("[curFilePath]: " + curFilePath + "/" + curFileName);
 
-//        System.out.println("[newFilePath]: " + newFilePath);
-//        System.out.println("[curFileList]: " + (curFileList != null));
+        // System.out.println("[newFilePath]: " + newFilePath);
+        // System.out.println("[curFileList]: " + (curFileList != null));
 
         newFilePath = curFilePath + "/" + curFileName;
         newFile = new File(newFilePath);
@@ -232,7 +232,7 @@ public class HandleFile {
             boolean isMkdir = newFile.mkdir();
             if (curFileList.length != 0) {
                 for (File f : curFileList) {
-//                    System.out.println("[f]: " + f);
+                    // System.out.println("[f]: " + f);
                     this.copyFolder(f.getAbsolutePath(), tarPath);
                 }
             }
@@ -244,15 +244,15 @@ public class HandleFile {
             newFilePath = tarPath + "/" + new File(curFilePath).getParentFile().getName() + "/" + curFileName;
             newFile = new File(newFilePath);
 
-//            System.out.println("[curFilePath]: " + curFilePath);
-//            System.out.println("[newFilePath]: " + newFilePath);
+            // System.out.println("[curFilePath]: " + curFilePath);
+            // System.out.println("[newFilePath]: " + newFilePath);
 
             FileInputStream fis = null;
             FileOutputStream fos = null;
 
             try {
-//                System.out.println("[curFile]: " +curFile);
-//                System.out.println("[newFile]: " +newFile);
+                // System.out.println("[curFile]: " +curFile);
+                // System.out.println("[newFile]: " +newFile);
 
                 fis = new FileInputStream(curFile);
                 fos = new FileOutputStream(newFile);
@@ -266,7 +266,7 @@ public class HandleFile {
                     count = fis.read(b);
                 }
 
-//                System.out.println(newFile.getAbsolutePath());
+                // System.out.println(newFile.getAbsolutePath());
 
             } catch (IOException e) {
 

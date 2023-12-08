@@ -10,14 +10,11 @@ public class TestFileInputStream {
         /**
          * 文件流
          *
-         *
          * 创建 File 对象, 建立与文件之间的联系,
-         *
-         *
          */
 
         String projectPath = System.getProperty("user.dir");
-        String basePath = projectPath + "/src/src.java.file_flow/file_stream/test_file";
+        String basePath = projectPath + "/src/java/FileStream/FileStream/files";
 
 
         FileInputStream fileInputStream1 = null;

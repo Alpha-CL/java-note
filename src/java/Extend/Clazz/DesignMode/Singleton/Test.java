@@ -1,4 +1,4 @@
-package src.java.Extend.Clazz.DesignMode.singleton;
+package src.java.Extend.Clazz.DesignMode.Singleton;
 
 public class Test {
 

@@ -30,7 +30,7 @@ public class TestThrows {
 
     public static void main(String[] args) {
 
-        TestThrows te = new TestThrows();
+        TestThrows testThrows = new TestThrows();
 
         try {
 

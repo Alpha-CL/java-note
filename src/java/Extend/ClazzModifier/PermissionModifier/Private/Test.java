@@ -1,4 +1,4 @@
-package src.java.Extend.ClazzModifier.FeatureModifier.Private;
+package src.java.Extend.ClazzModifier.PermissionModifier.Private;
 
 import java.util.Scanner;
 
